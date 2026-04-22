@@ -61,7 +61,7 @@ It follows an event-driven architecture to ensure continuous monitoring and auto
 
 ---
 
-##  Project Structure
+## 📂 Project Structure
 
 
 ---
