@@ -49,3 +49,31 @@ It follows an event-driven architecture to ensure continuous monitoring and auto
 ---
 
 ##  Project Structure
+ s3-security-enforcement-pipeline/
+├── lambda/
+├── eventbridge/
+├── iam/
+├── screenshots/
+├── architecture/
+├── README.md
+└── .gitignore
+
+ ##  Screenshots
+
+### S3 Bucket Before Remediation
+![Before](screenshots/s3-before.png)
+
+### S3 Bucket After Remediation
+![After](screenshots/s3-after.png)
+
+### Lambda Function Monitoring
+![Lambda](screenshots/lambda-function.png)
+
+### EventBridge Rule Configuration
+![EventBridge](screenshots/eventbridge-rule.png)
+
+### CloudTrail Event Detection
+![CloudTrail](screenshots/cloudtrail-event.png)
+
+### CloudWatch Metrics
+![CloudWatch](screenshots/cloudwatch-metrics.png)
